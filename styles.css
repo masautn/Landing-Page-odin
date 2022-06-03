@@ -1,9 +1,42 @@
-navbar {
+.navbar {
+
+  color:red;
+  background-color: #1F2937 ;
   position: relative;
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
+}
+
+
+.headerlinks {
+
+  color:green;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: space-between;
+  border-color: aliceblue;
+  border-width: 2px;
+  
+  ;
+}
+.a{
+  float: left;
+  
+}
+
+
+
+.titlecss{
+  font-size: 10px ;
+  font-weight: 700;
+
 }
