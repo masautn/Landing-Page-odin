@@ -1,6 +1,6 @@
 .navbar {
 
-  color:red;
+  color: #f9faf8;
   background-color: #1F2937 ;
   position: relative;
   display: flex;
@@ -9,34 +9,183 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 3rem;
+  padding-left: 10px;
 
 }
 
-
 .headerlinks {
 
-  color:green;
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   justify-content: space-between;
-  border-color: aliceblue;
-  border-width: 2px;
-  
   ;
 }
 .a{
   float: left;
+  padding-left: 15px;
   
 }
-
-
 
 .titlecss{
   font-size: 10px ;
   font-weight: 700;
 
 }
+
+
+.midbar{
+
+  background-color: #1F2937 ;
+  flex-wrap: nowrap;
+  display: flex;
+  position:relative;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 8rem 8rem 8rem 8rem;
+
+
+}
+
+
+.midTitle {
+  font-size: 48px ;
+  font-weight: 700;
+  color:#f9faf8;
+  
+}
+
+.midText{
+  color: #e5e7eb;
+  margin-right: 20px;
+  text-overflow: ellipsis;
+ 
+
+}
+
+.But1{
+  background-color: #3882f6;
+  border-radius: 5px;
+  width:100px;
+  color: #e5e7eb;
+  font-weight: 700;
+}
+
+
+.styledimg {
+  
+  background-repeat: no-repeat;
+  flex:2;
+  
+
+  }
+
+
+
+.ranbar{
+ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white ;
+  
+}
+.ranbar h3{
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 1cm;
+}
+.imglist{
+
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.imglist img{
+
+border: solid #3882f6;
+border-radius: 5px;
+}
+
+#imgcap {
+  
+  text-align: center;
+  color:#3882f6
+  
+}
+
+
+#faserbar{
+  background-color: #e5e7eb;
+  color:#1F2937;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+}
+#faserbar > fr{
+
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 3rem;
+  padding-right: 10rem;
+}
+#faserbar > div{
+  
+  display: flex;
+  font-weight: 900;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  padding-right: 10rem;
+  padding-bottom: 20px;
+
+}
+
+
+#butbar{
+  
+  background-color:#f9faf8;
+  
+  padding: 40px;
+  
+  
+}
+#butSection{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  flex: 1;
+  gap: 2rem;
+  padding: 3rem 10rem 3rem 10rem;
+  margin-bottom: 3rem;
+  border-radius: 7px;
+  border:solid #e5e7eb;
+
+  
+}
+
+#butSection > div > h1{
+  color: #f9faf8;
+  margin: 0;
+  font-weight: 800;
+}
+
+#butSection > div > button{
+  color: #f9faf8;
+  background-color:#3882f6;
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  border: solid #e5e7eb;
+  font-size: large;
+
+}
+
+
